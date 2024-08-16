@@ -27,6 +27,7 @@ class _note_homeState extends State<note_home> {
 
   void getinstall() async {
     alldata = await obj!.getallnote();
+    alldata = await obj!.getallnote();
     setState(() {});
   }
   @override
